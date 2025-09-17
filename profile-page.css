@@ -1,0 +1,94 @@
+/* element selector */
+p {
+    color: white;
+    background-color: deeppink;
+    margin: 10px;
+    text-align: center;
+}
+
+header {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color:rgb(96, 96, 96);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+ul {
+    background-color: deeppink;
+    color: gold;
+    padding: 15px
+}
+
+ul li {
+    background-color: gray;
+    color: gold;
+    margin: 3px;
+}
+
+/* class selectors */
+.pink {
+    color:deeppink
+}
+
+.gold {
+    color: gold;
+}
+
+.centered {
+    text-align: center;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    background-color: gold;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.column {
+    flex: 33.33%;
+    padding: 1px;
+}
+
+.nobottommargin {
+    margin-bottom: 0px;
+}
+
+/* id selectors */
+#gray {
+    color:lightslategray;
+}
+
+#image {
+    border: 5px solid deeppink;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
